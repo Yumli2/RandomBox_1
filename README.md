@@ -38,22 +38,30 @@
 ![](Images)
 <img src="Images/Protoype.JPG">
 
-Due to I2C errors with the use of the interrupts used by the TTP229 keyboard, this problem has been commented on in many forums, in Git's, by the developers.
+> ### Error Founds
 
-https://github.com/espressif/arduino-esp32/issues/839
-https://github.com/espressif/arduino-esp32/issues/1071
-https://github.com/espressif/arduino-esp32/issues/834
-Among others...
+*Due to I2C errors with the use of the interrupts used by the TTP229 keyboard, this problem has been commented on in many forums, in Git's, by the developers.
+  *https://github.com/espressif/arduino-esp32/issues/839
+  *https://github.com/espressif/arduino-esp32/issues/1071
+  *https://github.com/espressif/arduino-esp32/issues/834
+  Among others...
 
-I had problems creating tasks, to use the LCD Display that was also used as I2C, for this reason and because I was familiar with FreeRTO's tools, I had to create devices to use only 2 tasks, 1 exclusively for the Touch and another general . I tried several times to create an exclusive task for the LCD Display, but when creating, the behavior was unstable, I2C timeout errors always occurred on his bus. Problem that the forums are trying to get right.
+*I had problems creating tasks, to use the LCD Display that was also used as I2C, for this reason and because I was familiar with FreeRTO's tools, I had to create devices to use only 2 tasks, 1 exclusively for the Touch and another general . I tried several times to create an exclusive task for the LCD Display, but when creating, the behavior was unstable, I2C timeout errors always occurred on his bus. Problem that the forums are trying to get right.
+  *https://github.com/espressif/esp-idf/issues/1503
+  *https://github.com/espressif/esp-idf/issues/680
+  *https://github.com/espressif/arduino-esp32/issues/811
 
-https://github.com/espressif/esp-idf/issues/1503
-https://github.com/espressif/esp-idf/issues/680
-https://github.com/espressif/arduino-esp32/issues/811
-
-If anyone wants to contribute to the improvements, thank you.
+**If anyone wants to contribute to the improvements, thank you.**
 
 The rest of the implementations, is the basic one with the manipulation of Jason and the Certificates of his Integrated Store.
 
 To obtain your Application Key, you must open a request for support from the store.
 The Token is generated -> Panel -> in the settings tab.
+
+> ### Contact
+
+> **Atention** If you go email me, please put as subject the name of the project, in this case: **(Homefi AX) Requests**
+
+|  Name |  Email | Mobile  |
+|-------|--------|---------|
+|  Yuri Lima | y.m.lima19@gmail.com  | +353 83 419.1605  |
