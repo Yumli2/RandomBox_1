@@ -46,10 +46,10 @@
   *https://github.com/espressif/arduino-esp32/issues/834
   Among others...
 
-*I had problems creating tasks, to use the LCD Display that was also used as I2C, for this reason and because I was familiar with FreeRTO's tools, I had to create devices to use only 2 tasks, 1 exclusively for the Touch and another general . I tried several times to create an exclusive task for the LCD Display, but when creating, the behavior was unstable, I2C timeout errors always occurred on his bus. Problem that the forums are trying to get right.
-  *https://github.com/espressif/esp-idf/issues/1503
-  *https://github.com/espressif/esp-idf/issues/680
-  *https://github.com/espressif/arduino-esp32/issues/811
+* I had problems creating tasks, to use the LCD Display that was also used as I2C, for this reason and because I was familiar with FreeRTO's tools, I had to create devices to use only 2 tasks, 1 exclusively for the Touch and another general . I tried several times to create an exclusive task for the LCD Display, but when creating, the behavior was unstable, I2C timeout errors always occurred on his bus. Problem that the forums are trying to get right.
+  * https://github.com/espressif/esp-idf/issues/1503
+  * https://github.com/espressif/esp-idf/issues/680
+  * https://github.com/espressif/arduino-esp32/issues/811
 
 **If anyone wants to contribute to the improvements, thank you.**
 
@@ -60,7 +60,7 @@ The Token is generated -> Panel -> in the settings tab.
 
 > ### Contact
 
-> **Atention** If you go email me, please put as subject the name of the project, in this case: **(Homefi AX) Requests**
+> **Atention** If you go email me, please put as subject the name of the project, in this case: **(RandomBox) Requests**
 
 |  Name |  Email | Mobile  |
 |-------|--------|---------|
