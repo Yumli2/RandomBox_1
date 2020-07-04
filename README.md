@@ -35,8 +35,8 @@
 * [Central Suport Assenbly + Motor Assenbly](https://youtu.be/XT-ZBJUHyEo) **No Rendered**
 
 > ### Protoypes Images
-
-<img src="Images/FlowRandomBox1.png">
+![](Images)
+<img src="Images/Protoype.JPG">
 
 Due to I2C errors with the use of the interrupts used by the TTP229 keyboard, this problem has been commented on in many forums, in Git's, by the developers.
 
