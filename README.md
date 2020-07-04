@@ -38,22 +38,22 @@
 
 <img src="Images/FlowRandomBox1.png">
 
-Devido a erros de I2C com o uso das interrupções usadas pelo teclado TTP229, problema esse muito comentado em vários foruns, nos Git's, pelos desenvolvedores.
+Due to I2C errors with the use of the interrupts used by the TTP229 keyboard, this problem has been commented on in many forums, in Git's, by the developers.
 
 https://github.com/espressif/arduino-esp32/issues/839
 https://github.com/espressif/arduino-esp32/issues/1071
 https://github.com/espressif/arduino-esp32/issues/834
-Dentre outros....
+Among others...
 
-Tive problemas na criação de task's, para o uso do Display LCD que tbm foi usado como I2C, por esse motivo e por estar conhecendo as ferramentas do FreeRTO's, tive que criar artificios para usar apenas 2 task, 1 exclusiva para o Touch e outra geral. Tentei por várias vezes criar uma task exclusiva para o Display LCD, mas ao criar,o comportamento era instavel, sempre ocorria erros de timeout I2C no barramento dele. Problema que nos foruns estão tentando acertar.
+I had problems creating tasks, to use the LCD Display that was also used as I2C, for this reason and because I was familiar with FreeRTO's tools, I had to create devices to use only 2 tasks, 1 exclusively for the Touch and another general . I tried several times to create an exclusive task for the LCD Display, but when creating, the behavior was unstable, I2C timeout errors always occurred on his bus. Problem that the forums are trying to get right.
 
 https://github.com/espressif/esp-idf/issues/1503
 https://github.com/espressif/esp-idf/issues/680
 https://github.com/espressif/arduino-esp32/issues/811
 
-Caso alguem queira contrbnuir com as melhorias, agradeço.
+If anyone wants to contribute to the improvements, thank you.
 
-O resto das implementações, é o basicão com a manipulação do Jason e os Certificados de sua Loja Integrada. 
+The rest of the implementations, is the basic one with the manipulation of Jason and the Certificates of his Integrated Store.
 
-Para conseguir a sua Chava de Aplicação, você deve abrir uma solicitação pelo suporte da loja. 
-O Token, é gerado -> Painel -> na aba de configurações. 
+To obtain your Application Key, you must open a request for support from the store.
+The Token is generated -> Panel -> in the settings tab.
