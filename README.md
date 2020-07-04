@@ -12,12 +12,12 @@
 ![](Images)
 <img src="Images/FlowRandomBox1.png">
 
-> ### Softaware
+> ### Softawares
 1. VsCode
 1. AWS IOT, Lambda
 1. SolidWorks
 
-> ### Hardware
+> ### Hardwares
 1. ESP32
 1. Keyboard TTP229
 
@@ -28,11 +28,15 @@
 
 > ### Protoypes Videos
 **Click on the text below to watch on Youtube Channel**
-[Esp_32 + FreeRTO's + API_Loja_Integrada](https://youtu.be/USlRwm8FtBU)
-[Esp_32 + FreeRTO's + API_Loja_Integrada New Functions](https://youtu.be/Byxi9N65fug) 
-[Central Suport Assenbly + Motor Assenbly](https://youtu.be/GkYKwFoSeXg) **Rendered**
-[Central Suport Assenbly + Motor Assenbly](https://youtu.be/XT-ZBJUHyEo) **No Rendered**
 
+* [Esp_32 + FreeRTO's + API_Loja_Integrada](https://youtu.be/USlRwm8FtBU)
+* [Esp_32 + FreeRTO's + API_Loja_Integrada New Functions](https://youtu.be/Byxi9N65fug) 
+* [Central Suport Assenbly + Motor Assenbly](https://youtu.be/GkYKwFoSeXg) **Rendered**
+* [Central Suport Assenbly + Motor Assenbly](https://youtu.be/XT-ZBJUHyEo) **No Rendered**
+
+> ### Protoypes Images
+
+<img src="Images/FlowRandomBox1.png">
 
 Devido a erros de I2C com o uso das interrupções usadas pelo teclado TTP229, problema esse muito comentado em vários foruns, nos Git's, pelos desenvolvedores.
 
